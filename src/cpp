@@ -1,0 +1,11 @@
+#include "cpplib/vec.hpp"
+#include "cpplib/str.hpp"
+#include "cpplib/debug.hpp"
+#include "cpplib/map.hpp"
+
+/*@DOC
+@SECTION(files)
+@FILE
+This file includes all the headers from the cpplib library.
+To use the library, you need to use `cpp::` before the functions and classes.
+*/

@@ -1,0 +1,10 @@
+#include "cpp"
+
+using namespace cpp;
+
+/*@DOC
+@SECTION(files)
+@FILE
+This file includes all the headers from the cpplib library.
+This version of the library does not require you to use `cpp::` before the functions and classes.
+*/

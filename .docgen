@@ -1,0 +1,49 @@
+@@NEW_ALIAS(FUNCTION,
+"### `@FUNC_NAME`
+```cpp
+@S_NEXT_DECL
+@@```")
+
+@@NEW_ALIAS(CLASS,
+"### `@CLASS_NAME`
+```cpp
+@S_NEXT_DECL
+@@```")
+
+@@NEW_ALIAS(CLASS_FUNC,
+"```cpp
+@S_NEXT_DECL
+@@```")
+
+@@NEW_ALIAS(MACRO,
+"### `@FUNC_NAME`
+```cpp
+@S_NEXT_MACRO
+@@```")
+
+
+@@NEW_ALIAS(FILE, "### `@FILE_NAME`")@@
+
+@@PROCESS_SOURCES(src/**/*.hpp)@@
+@@PROCESS_SOURCES(src/cpp)@@
+@@PROCESS_SOURCES(src/ezcpp)@@
+
+# CppLib
+
+Simple library for C++ projects.
+
+## Files
+
+@@INSERT_SECTION(files)@@
+
+## Classes
+
+@@INSERT_SECTION(classes)@@
+
+## Functions
+
+@@INSERT_SECTION(functions)@@
+
+## Macros
+
+@@INSERT_SECTION(macros)@@
